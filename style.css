@@ -1,0 +1,53 @@
+body{
+    font-family: "roboto";
+}
+
+h1{
+    size: 48px;
+    font-weight: 800;
+}
+
+h2{
+    size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+p{
+    size: 18px;
+}
+
+button , .call-to-action{
+background-color: #3882f6;
+color: white;
+}
+
+
+
+.logo{
+    size: 24px;
+    color: #f9faf8
+}
+
+.white-subtext, li{
+    color: #e5e7eb;
+}
+
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+    color: white;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+
