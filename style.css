@@ -2,9 +2,9 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
+    margin:0;
     display: flex;
     flex-direction: column;
-    flex:auto;
 }
 
 h1 {
@@ -34,6 +34,16 @@ p {
 }
 
 /* ---Combination---*/
+.header,
+.hero,
+.information,
+.quote,
+.call-to-action,
+.footer{
+    padding: 0px 150px;
+    border: 0;
+    flex:auto;
+}
 
 button,
 .call-to-action {
@@ -58,14 +68,19 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
 
 .quote {
     background-color: #e5e7eb;
 }
-
 /* ---Parts---*/
 
 .logo {
@@ -73,7 +88,14 @@ li {
     color: #f9faf8
 }
 
-.li
+.img-placeholder{
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .quote-text {
     size: 36px;
