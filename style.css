@@ -86,6 +86,8 @@ li {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 /* ---Parts---*/
 
@@ -131,4 +133,5 @@ li {
 
 .quote-autour {
     font-weight: 500;
+    align-self: flex-end;
 }
