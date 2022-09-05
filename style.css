@@ -33,6 +33,13 @@ p {
     size: 18px;
 }
 
+button{
+    border-radius: 10px;
+    width: max-content;
+    padding: 3px 15px;
+    border: 0 ;
+}
+
 #call-heading, #call-text{
     margin: 0px;
 }
@@ -118,11 +125,11 @@ li {
 
 .img-placeholder{
     background-color: grey;
-    height: 200px;
-    width: 400px;
+    padding: 25px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 1 auto;
 }
 
 .illustrations-container{
@@ -166,4 +173,8 @@ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.low-contrast-button{
+    border: 1px solid white;
 }
