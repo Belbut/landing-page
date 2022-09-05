@@ -33,6 +33,10 @@ p {
     size: 18px;
 }
 
+#call-heading, #call-text{
+    margin: 0px;
+}
+
 /* ---Combination---*/
 .header,
 .hero,
@@ -40,7 +44,7 @@ p {
 .quote,
 .call-to-action,
 .footer{
-    padding: 0px 150px;
+    padding: 0px 200px;
     border: 0;
     flex:auto;
 }
@@ -74,7 +78,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px inherit;
     gap: 25px;
 }
 
@@ -82,12 +86,14 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .quote {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding: 40px inherit;
 }
 
 .call-to-action{
@@ -123,6 +129,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .illustration-card{
@@ -130,6 +137,7 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .illustration{
@@ -137,6 +145,10 @@ li {
     width: 100px;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+.black-subtext{
+text-align: center;
 }
 
 .quote-text {
@@ -148,4 +160,10 @@ li {
 .quote-autour {
     font-weight: 500;
     align-self: flex-end;
+}
+
+.left-call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
