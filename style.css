@@ -22,6 +22,10 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
+    padding-inline-start: 0px;
+    align-self: baseline;
+  
+
 }
 
 a {
@@ -78,14 +82,15 @@ li {
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px inherit;
+    /*padding: 50px inherit;*/
     gap: 25px;
 }
 
@@ -93,14 +98,16 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .quote {
     background-color: #e5e7eb;
+    min-height: auto;
     display: flex;
     flex-direction: column;
-    padding: 40px inherit;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action{
@@ -109,6 +116,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .footer{
@@ -120,7 +128,8 @@ li {
 
 .logo {
     size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    align-self: baseline;
 }
 
 .img-placeholder{
